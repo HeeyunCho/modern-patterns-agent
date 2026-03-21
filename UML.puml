@@ -1,0 +1,25 @@
+@startuml
+skinparam handwritten false
+skinparam monochrome true
+
+title Modern Design Patterns Components
+
+package "AI Orchestration" {
+  [Sequential Chain]
+  [Ensemble Voting]
+  [Shared Memory]
+}
+
+package "Infrastructure Resilience" {
+  [Cellular Silos]
+}
+
+package "Sustainability" {
+  [Carbon Aware Scheduler]
+}
+
+[Sequential Chain] --> [Shared Memory] : stores_state
+[Ensemble Voting] --> [Shared Memory] : reads_context
+[Cellular Silos] --> [Carbon Aware Scheduler] : scheduling_input
+
+@enduml
