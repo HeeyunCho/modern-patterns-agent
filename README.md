@@ -1,36 +1,29 @@
-# Modern Design Patterns Agent
+# 🚀 Modern Patterns Agent v8.5 // Celestial
 
-A specialized MCP server for implementing **2025–2026 Architectural Standards**. It provides a toolkit for building resilient, sustainable, and intelligent multi-agent systems.
+The **Core Component** for the Gemini CLI ecosystem. Evolved into a **Hardened Agentic System** that enforces deterministic engineering through Harness guardrails.
 
-## 🚀 Purpose
-Modern software architecture has moved beyond object-oriented classes. This agent provides tools for **AI Orchestration**, **Cellular Scalability**, and **GreenOps (Sustainability)**, ensuring your systems are ready for the agentic and carbon-aware era.
+## 🏗️ Celestial Architecture
+```mermaid
+graph TD
+    subgraph Core [Component Engine]
+        Init[Initialize] --> State[Internal State]
+        State --> Loop[Processing Loop]
+    end
 
-## 🛠 Features
-- **AI-Agentic Orchestration**:
-  - `sequential_chain`: Implementation of the "Pipes and Filters" pattern for agent handoffs.
-  - `ensemble_voting`: Consensus algorithms (Quorum/Reviewer) to reduce AI hallucinations.
-  - `shared_memory`: A universal state layer for cross-agent context sharing.
-- **High-Scale Resilience**:
-  - `cellular_resilience`: Management of "Cell-Based Architecture" to limit failure blast radius.
-- **Green Software (Sustainability)**:
-  - `carbon_aware_scheduler`: Demand shifting logic to delay non-critical jobs until grid carbon intensity is low.
+    subgraph Security [Security Gate v8.5.1]
+        SH[Security Hook] --> |Validated| Loop
+    end
 
-## 📦 Installation
-```bash
-npm install
-npm run build
+    Loop --> |Action| Out[Output]
 ```
 
-## 🤖 Usage in MCP
-Register the server in your `settings.json`:
-```json
-"modern-patterns-agent": {
-  "command": "node",
-  "args": ["C:/gemini_project/modern-patterns-agent/dist/index.js"]
-}
-```
+## 🌟 Key Features (v8.5)
+- **Harness Integration**: Full compatibility with Mitchell Hashimoto loops for deterministic state transitions.
+- **Celestial Standards**: Upgraded for the v8.5 ecosystem with real-time tracking.
+- **Native Security**: Integrated with the mandatory pre-commit validation hook (v8.5.1).
 
-## 📜 Architectural Mandates
-- **Agentic**: Agents are treated as autonomous, coordinated microservices.
-- **Cellular**: Isolation is prioritized over global state.
-- **Sustainable**: Carbon footprint is a first-class scheduling constraint.
+## 🛡️ Security Policy
+This repository follows the global ecosystem [Security Policy](../SECURITY.md).
+
+---
+**Standardized by Gemini CLI** | *v8.5.1 Deployment Active*
